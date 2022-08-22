@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <title>Teams Style 1</title>
+	<sampledata></sampledata>
+	<fields name="teams-intro">
+		<fieldset name="basic" label="TEAMS_BASIC_LABEL" description="TEAMS_BASIC_DESC">
+			<field name="columns" type="list" label="TEAMS_COLUMNS_LABEL" description="TEAMS_COLUMNS_DESC" >
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</field>
+
+			<field name="desc" type="text" default="" label="TEAMS_DESCRIPTIONS" description="TEAMS_DESCRIPTIONS_DES"/>
+			<field name="button" type="text" default="" label="TEAMS_BUTTON" description="TEAMS_BUTTON_DES"/>
+			<field name="btn-link" type="text" default="" label="TEAMS_BUTTON_LINK" description="TEAMS_BUTTON_LINK_DES"/>	
+			<field name="btn-type" type="list" default="primary" label="TEAMS_BUTTON_TYPE" description="TEAMS_BUTTON_TYPE_DES">
+				<option value="primary">Primary</option>
+				<option value="secondary">Secondary</option>
+				<option value="info">Info</option>
+				<option value="success">Success</option>
+			</field>
+		</fieldset>
+	
+		<fieldset name="section-teams" label="TEAMS_SECTION_LABEL" description="TEAMS_SECTION_DESC">
+			<field name="data" type="jalist" >
+				<item name="img" type="media" default="" label="TEAMS_IMAGE_LABEL" description="TEAMS_IMAGE_LABEL_DESC"  />
+				<item name="title" type="text" default="" size="40" label="TEAMS_TITLE_LABEL" description="TEAMS_TITLE_DESC" required="1" />
+				<item name="team-position" type="text" default="" label="TEAMS_POSITION_LABEL" description="TEAMS_POSITION_DESC" rows="5" cols="40" />
+				<item name="link" type="text" default="" label="TEAMS_LINK_LABEL" description="TEAMS_LINK_DESC" />
+			</field>
+
+		</fieldset>
+		
+  </fields>
+</form>

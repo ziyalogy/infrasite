@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<title>Gallery Style 1</title>
+	<sampledata></sampledata>
+	<fields name="basic">
+		<fieldset name="col" label="GALLERY_BASIC_LABEL" description="GALLERY_BASIC_DESC" >      
+			<field name="number_col" type="list" label="GALLERY_NUMBER_COL_LABEL" description="GALLERY_NUMBER_COL_DESC">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</field>
+
+			<field name="auto_play" default="1" type="list" label="GALLERY_AUTO_PLAY_LABEL" description="GALLERY_AUTO_PLAY_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+
+			<field name="auto_time" default="25000" type="text" label="GALLERY_TIME_TRANSITION_LABEL" description="GALLERY_TIME_TRANSITION_DESC" />
+		</fieldset>
+		
+		<fieldset name="gallery" label="GALLERY_LABEL" description="GALLERY_DESC" multiple="1">
+			<field name="gallery-image" type="media" default="" label="GALLERY_LABEL" description="GALLERY_DESC"></field>
+		</fieldset>
+	</fields>
+</form>
