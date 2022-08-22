@@ -16,6 +16,10 @@
 				<option value="0.3">0.3</option>
 				<option value="0.4">0.4</option>
 				<option value="0.5">0.5</option>
+				<option value="0.6">0.6</option>
+				<option value="0.7">0.7</option>
+				<option value="0.8">0.8</option>
+				<option value="0.9">0.9</option>
 			</field>
 
 			<field name="ft-bg" type="media" default="" label="HERO_BACKGROUND_LABEL" description="HERO_BACKGROUND_DESC" />
@@ -30,6 +34,7 @@
 			<field name="btn-link" type="text" default="" size="40" label="HERO_BUTTOM_LINK_LABEL" description="HERO_BUTTOM_LINK_DESC"  />
 			<field name="btn-type" type="list" default="primary" label="HERO_BUTTOM_TYPE_LABEL" description="HERO_BUTTOM_TYPE_DESC">
 				<option value="primary">Primary</option>
+				<option value="primary">Secondary</option>
 				<option value="success">Success</option>
 				<option value="warning">Warning</option>
 				<option value="danger">Danger</option>

@@ -29,7 +29,7 @@ if ($helper->get('ft-bg')) {
     'ft-align'
 ); ?>" <?php echo $bgHero; ?>>
 	<div class="mask" style="opacity: <?php echo $helper->get('ft-mask'); ?>"></div>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="hero-item">
 			<?php if ($helper->get('title')): ?>
 				<h1 data-aos="fade-up"><?php echo $helper->get('title'); ?></h1>

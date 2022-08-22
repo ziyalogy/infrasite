@@ -1,4 +1,19 @@
 .navbar-brand.logo-control img.logo-img {
     max-width: fit-content;
-    height: auto;
+}
+.t4-megamenu.animate.slide .dropdown > .dropdown-menu {
+    width: max-content;
+}
+.acm-hero.style-1 .mask {
+    background: #0092ce;
+}
+.acm-hero.style-1 .hero-item h1, .acm-hero.style-1 .hero-item .h1 {
+    color: #fff;
+    text-transform: inherit;
+}
+.navbar-brand.logo-control img.logo-img {
+    max-height: 90px;
+}
+div[id*='t4-section-'] .section-title-wrap .section-title:before, div[id^='t4-section-'] .section-title-wrap .section-title:before {
+    display: none;
 }
